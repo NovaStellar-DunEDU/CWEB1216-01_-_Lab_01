@@ -2,12 +2,13 @@ package testlab01;
 
 public class colorStorage extends mainProgram{
 	
-	private String c1;
-	private static String s3, s2, s1;
-	private boolean colorUpdate = true;
+	private String c1; // the User Input itself
+	private static String s3, s2; // Final Variable Color Name, STORED User Inputed Color Name used for Output
+	private boolean colorUpdate = true; // Checks if the colors have truly updated or not
+	
     public static final String RESET = "\033[0m";  // Text Font and Color Reset
 	
-    // Bold Text
+    // In Bold
     public static final String BLACK_BOLD = "\033[1;30m";  // BLACK
     public static final String RED_BOLD = "\033[1;31m";    // RED
     public static final String GREEN_BOLD = "\033[1;32m";  // GREEN
@@ -85,6 +86,7 @@ public class colorStorage extends mainProgram{
     		break;
     		
     	default:
+    		setColorName("None");
     		System.out.println("Invalid Input. Try again.");
     		colorUpdate = true;
     	}
