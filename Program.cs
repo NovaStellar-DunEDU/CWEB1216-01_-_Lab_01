@@ -1,4 +1,4 @@
-﻿namespace Amy_Lee___CWEB1216___LAB_01___Easier_Varient
+﻿namespace NovaStellar_DunEDU___CWEB1216___LAB_01___Easier_Varient
 {
     internal class Program
     {
@@ -248,4 +248,5 @@
 
         }
     }
+
 }
