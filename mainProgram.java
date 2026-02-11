@@ -1,4 +1,4 @@
-/* Amy Lee
+/* NovaStellar_DunEDU
  * Lab-01, CWEB1216-01
  * mainProgram.java
  * 2/11/2026
@@ -239,4 +239,5 @@ public class mainProgram{
 	    storeObj.display(); // See storageInfo.java
 	    
 	}
+
 }
